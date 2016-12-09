@@ -1,0 +1,72 @@
+html, body{
+			background-color: #000;
+			height: 100%;
+			width: 100%;
+			margin: 0px;
+			text-align: center;
+			overflow: hidden;
+			color: #bbb;
+}
+h1{
+	font-family: 'Verdana';
+	font-size:32px;
+	top:10px;
+	color:#666;
+	position: absolute;
+	width: 100%;
+	xletter-spacing: 1px;
+	xfont-weight: 200;
+}
+a{
+	font-family: 'Verdana';
+	position: absolute;
+    top: 10px;
+    left: 10px;
+	font-size: 11px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+}
+p{
+	font-family: 'Verdana';
+	position: absolute;
+    bottom: 10px;
+    right: 10px;
+	font-size: 11px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+}
+#loading{
+	font-size: 33px;
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	margin: auto;
+}
+#footer{
+	font-family: 'Verdana';
+	position: absolute;
+    bottom: : 10px;
+    width: 100%;
+	margin: auto;
+	font-size: 11px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+}
+.svg-container{
+	position: relative; 
+	height: 0; 
+	width: 100%; 
+	padding: 0;
+	padding-bottom: 100%; 
+}
+.svg-content{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: auto; 
+ 	width: 100%; 
+}
